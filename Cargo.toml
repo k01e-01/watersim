@@ -1,0 +1,15 @@
+[package]
+name = "watersim"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.86"
+bincode = "1.3.3"
+env_logger = "0.11.5"
+log = "0.4.22"
+rustyline = "14.0.0"
+serde = { version = "1.0.204", features = ["derive"] }
+termion = "4.0.2"
