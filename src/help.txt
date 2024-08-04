@@ -1,2 +1,26 @@
-sorry :/
-no help
+commands
+
+    noop                        do nothing
+    s | save <file>             save world to a file
+    l | load <file>             load world from a file
+    n | new <width> <height>    create a new world
+    v | show | view             view world
+    i | inspect <x> <y>         check the state of one tile
+    t | tick                    move one step forward in time
+    f | fps | tps <speed>       change simulation target speed
+    e | edit <x> <y> <tile>     modify one tile
+    r | run                     run simulation
+    q | quit | exit             exit watersim
+    h | ? | help                show this message
+
+tile format
+
+    w | water                   water with pressure 1.0
+    w:<p> | water:<p>           water with pressure p
+    b | wall                    wall (grey tile)
+    e | empty                   empty
+
+what if a tile is red?
+
+    thats NaN, something has gone /very/ wrong! create a new world!
+
