@@ -19,4 +19,5 @@ check src/help.txt, or run the program and type ?
 ## license
 
 all code in this repository is licensed under the MIT license
+
 see LICENSE for more information
